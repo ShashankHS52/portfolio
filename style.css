@@ -335,22 +335,29 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: center;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
 }
 
-article {
+article .ii {
   display: flex;
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
+  margin-left: 5px;
 }
 
 article .icon {
   cursor: default;
+ 
+}
+
+.react{
+  
+  
 }
 
 /* PROJECTS SECTION */
